@@ -34,11 +34,11 @@ public class Product {
 
     //methods
     public void updatePrice(double newPrice){
-        newPrice = price;
+        this.price = newPrice;
     }
 
     public void updateQuantity(int newQuantity){
-        newQuantity = quantity;
+        this.quantity = newQuantity;
     }
 
 }

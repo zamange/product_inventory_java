@@ -15,4 +15,12 @@ public class Product {
     }
 
 
+    //getters
+    public int getProductId() {
+        return productId;
+    }
+
+    public String getProductName() {
+        return productName;
+    }
 }

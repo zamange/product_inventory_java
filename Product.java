@@ -37,4 +37,8 @@ public class Product {
         newPrice = price;
     }
 
+    public void updateQuantity(int newQuantity){
+        newQuantity = quantity;
+    }
+
 }

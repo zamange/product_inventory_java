@@ -31,4 +31,10 @@ public class Product {
     public int getQuantity() {
         return quantity;
     }
+
+    //methods
+    public void updatePrice(double newPrice){
+        newPrice = price;
+    }
+
 }
